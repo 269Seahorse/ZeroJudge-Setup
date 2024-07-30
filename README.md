@@ -186,7 +186,7 @@ sudo systemctl restart tomcat8
 ```
 
 打開 `http://<server ip>:8080` 應該長這樣就對了
-![image](https://hackmd.io/_uploads/Syrd2YUY0.png)
+![image](https://github.com/269Seahorse/ZeroJudge-Setup/blob/main/tomcat.png?raw=true)
 
 ### 7. 獲取 ZeroJudge 需要的 LXC 檔案
 
