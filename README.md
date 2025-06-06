@@ -223,6 +223,8 @@ tar -xvf ZeroJudgeVM3.4.2.ova
 ```bash=
 sudo mkdir /mnt/u1
 sudo guestmount -i -r /mnt/u1 -a ZeroJudgeVM-disk001.vmdk
+# 如果遇到這種錯誤 supermin: failed to find a suitable kernel (host_cpu=x86_64).
+# 就跑 sudo apt-get install linux-image-generic
 sudo cp -r /mnt/u1/var/lib/lxc/lxc-ALL/ /var/lib/lxc/
 sudo service lxc restart
 sudo umount /mnt/u1
